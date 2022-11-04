@@ -9,7 +9,7 @@ ReactDOM.render(
     <BrowserRouter>
       <div>
         <Route path="/" />
-        <Route path="/form" />
+        <Route path="/top" component={topPages} />
       </div>
     </BrowserRouter>
   </React.StrictMode>,
